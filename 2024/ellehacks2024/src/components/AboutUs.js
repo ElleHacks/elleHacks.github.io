@@ -8,7 +8,10 @@ import img4 from '../assets/aboutUs/ElleHacks2024-04.jpg';
 import img5 from '../assets/aboutUs/ElleHacks2024-05.jpg';
 import img6 from '../assets/aboutUs/ElleHacks2024-06.jpg';
 import img7 from '../assets/aboutUs/ElleHacks2024-07.jpg';
-
+import img8 from '../assets/aboutUs/ElleHacks2024-08.jpg';
+import img9 from '../assets/aboutUs/ElleHacks2024-09.jpg';
+import img10 from '../assets/aboutUs/ElleHacks2024-10.jpg';
+import img11 from '../assets/aboutUs/ElleHacks2024-11.jpg';
 class AboutUs extends Component {
   render() {
     return (
@@ -35,6 +38,18 @@ class AboutUs extends Component {
             </Carousel.Item>
             <Carousel.Item>
               <Image width={500} height={600} alt="First slide" src={img7} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image width={500} height={600} alt="First slide" src={img8} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image width={500} height={600} alt="First slide" src={img9} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image width={500} height={600} alt="First slide" src={img10} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image width={500} height={600} alt="First slide" src={img11} />
             </Carousel.Item>
           </Carousel>
         </div>
