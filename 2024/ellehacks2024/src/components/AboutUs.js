@@ -44,9 +44,16 @@ class AboutUs extends Component {
           <br />
           <h5 style={{ textAlign: 'center' }}>Girls who // CODE write the future</h5>
           <br />
-          <p>ElleHacks is one of Canada's largest hackathons for women and gender-diverse students! </p>
-          <p>We're a free, student-run, and beginner-friendly competition where attendees pitch technical solutions to global issues, participate in fun workshops,
-            and network with recruiters and industry professionals.</p>
+          <p> <br><br>Welcome to ElleHacks, where innovation meets inclusivity! 🚀
+         <br><br> ElleHacks is one of Canada's largest hackathons for women and gender-diverse students and we want to celebrate your creativity! 
+
+         <br><br> We're a free, student-run, and beginner-friendly competition serving as 
+         your canvas to pitch bold solutions to global challenges, participate in engaging workshops, 
+         and connect with a diverse community of recruiters, industry professionals and peers.
+         <br><br>
+         No coding experience? No problem! ElleHacks is designed for everyone, from tech enthusiasts
+         to those taking their first steps in the digital world. 
+       </p>
         </div>
       </div>
     );
