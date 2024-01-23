@@ -1,6 +1,6 @@
 
 import styled from "styled-components";
-import background_footer from "./images/background_footer.png";
+import background_footer from "../images/background_footer.png";
 
 export const Logo = styled.img`
   max-width: 100px; /* Adjust the max width as needed */

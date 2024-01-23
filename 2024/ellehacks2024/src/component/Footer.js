@@ -1,5 +1,13 @@
 import React from "react";
-import Red from "./images/Red.png";
+import Red from "../images/Red.png";
+import facebook from "../images/socials/facebook.png";
+import icRoundEmail from "../images/socials/ic_round-email.png";
+import logostiktokicon from "../images/socials/logos_tiktok-icon.png";
+import linkedin from "../images/socials/linkedin.png";
+import twitter from "../images/socials/twitter.png";
+import instagram from "../images/socials/instagram.png";
+
+
 import {
   Box,
   FooterContainer,
@@ -59,22 +67,22 @@ const Footer = () => {
 					 <SocialIconsContainer>
                               <div id="contact-socials" className="socials">
                                 <a href="mailto::info@ellehacks.com">
-                                  <img className="social-icons" src="/socials/ic_round-email.png" alt="email" />
+                                  <img className="social-icons" src={icRoundEmail} alt="email" />
                                 </a>
                                 <a href="https://www.instagram.com/ellehacks/">
-                                  <img className="social-icons" src="/socials/instagram.png" alt="instagram" />
+                                  <img className="social-icons" src={instagram} alt="instagram" />
                                 </a>
                                 <a href="https://www.tiktok.com/@ellehacks">
-                                  <img className="social-icons" src="/socials/logos_tiktok-icon.png" alt="tiktok" />
+                                  <img className="social-icons" src={logostiktokicon} alt="tiktok" />
                                 </a>
                                 <a href="https://www.linkedin.com/company/ellehacks/">
-                                  <img className="social-icons" src="/socials/linkedin.png" alt="linkedin" />
+                                  <img className="social-icons" src={linkedin} alt="linkedin" />
                                 </a>
                                 <a href="https://twitter.com/ellehacks">
-                                  <img className="social-icons" src="/socials/twitter.png" alt="twitter" />
+                                  <img className="social-icons" src={twitter} alt="twitter" />
                                 </a>
                                 <a href="https://www.facebook.com/ellehacks/">
-                                  <img className="social-icons" src="/socials/facebook.png" alt="facebook" />
+                                  <img className="social-icons" src={facebook} alt="facebook" />
                                 </a>
                               </div>
                      </SocialIconsContainer>
