@@ -9,6 +9,7 @@ import AboutUs from './components/AboutUs';
 import JoinUS from './components/JoinUS';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import PreviousWinners from './components/PreviousWinners'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <JoinUS id="joinus" />
         <FAQ id="faq" />
         <Footer />
+        <PreviousWinners />
       </div>
     </Router>
   );
