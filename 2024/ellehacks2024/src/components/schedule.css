@@ -32,6 +32,11 @@
     padding: 1rem;
 }
 
+.gold-background {
+    margin-top: 8px;
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
 .agenda-item {
     display: flex;
     margin: auto;
@@ -42,6 +47,7 @@
 
 .time {
     width: 40%;
+    padding-top: 3px;
     font-size: 12px;
     font-weight: regular;
 }
