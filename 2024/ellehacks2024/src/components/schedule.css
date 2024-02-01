@@ -1,0 +1,102 @@
+.title {
+    padding: 20px;
+    font-size: '4xl';
+    color: white;
+}
+
+.schedule-cards {
+    margin: auto;
+    width: 90%;
+}
+
+
+.date, .day, .agenda {
+    color: #712323;
+    font-family: 'Space Grotesk';
+}
+
+.date {
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.day {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.agenda {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+
+.gold-background {
+    margin-top: 8px;
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+.agenda-item {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    bottom: 2rem;
+    border-bottom: 2px solid #853536;
+}
+
+.time {
+    width: 40%;
+    padding-top: 3px;
+    font-size: 12px;
+    font-weight: regular;
+}
+
+.agenda-time-location {
+    width: 100%;
+}
+
+.activity-name {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.location {
+    color: black;
+    font-size: 10px;
+}
+
+.__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    
+}
+
+@media screen and (max-width: 992px) {
+    /* Styles for medium screens */
+
+    .__row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .__col {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    /* Styles for small screens */
+
+    .__col {
+        width: 90%;
+        margin: auto;
+    }
+
+    .time {
+        width: 30%;
+    }
+}

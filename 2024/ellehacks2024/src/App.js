@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import JoinUS from './components/JoinUS';
+import Schedule from  './components/Schedule';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import PreviousWinners from './components/PreviousWinners'; 
@@ -20,6 +21,7 @@ function App() {
         <Home id="home" />
         <AboutUs id="aboutus" />
         <JoinUS id="joinus" />
+        <Schedule id="schedule"/>
         <FAQ id="faq" />
         <Footer />
         <PreviousWinners />
